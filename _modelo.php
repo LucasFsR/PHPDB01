@@ -1,8 +1,9 @@
 <?php
+//Adiciona o slogan da página
+$title = "Quem tem fome tem pressa...";
 
 //Inclui cabeçalho da página
-
-require("_header.php")
+require($_SERVER["DOCUMENT_ROOT"] . "/_header.php")
 
 ?>
             <section>
@@ -19,6 +20,6 @@ require("_header.php")
 
 //Inclui o rodapé da página
 
-require("_footer.php")
+require($_SERVER["DOCUMENT_ROOT"] . "/_footer.php")
 
 ?>

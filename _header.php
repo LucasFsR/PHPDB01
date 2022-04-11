@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <title>Vitugo</title>
+    <title>Vitugo - <?php echo $title ?></title>
 </head>
-
 <body>
 
     <a id="top"></a>
@@ -17,14 +15,14 @@
 
         <header>
 
-            <a href="/" title="Página Inicial"><img src="/img/logo01.png" alt="Logotipo de Vitugo"></a>
-            <h1>Vitugo<small>Quem tem fome tem pressa.</small></h1>
+            <a href="/" title="Pagina Inicial"><img src="/img/logo01.png" alt="Logotipo de Vitugo"></a>
+            <h1>Vitugo<small>Quem tem fome tem pressa</small></h1>
 
         </header>
 
         <nav>
 
-            <a href="/" title="Página Inicial"><i class="fa-solid fa-house-chimney"></i><span>Início</span></a>
+            <a href="/" title="Paginal Inicial"><i class="fa-solid fa-house-chimney"></i><span>Início</span></a>
 
             <a href="/contatos" title="Faça Contato"><i class="fa-solid fa-comment-dots"></i><span>Contatos</span></a>
 
